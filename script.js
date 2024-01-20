@@ -71,3 +71,24 @@ $(document).ready(function(){
         }
     });
 });
+
+ let bgF = document.querySelector(".bg-full");
+ let color = document.getElementById("color");
+
+   function a(){
+     bgF.classList.toggle("bg-fulll");
+   }
+
+  function blue(){
+     color.href = "color2.css";
+     bgF.classList.toggle("bg-fulll");
+     
+  }
+  function crimson(){
+     color.href = "color1.css";
+     bgF.classList.toggle("bg-fulll");
+  }
+  function rgb(){
+     color.href = "color3.css";
+     bgF.classList.toggle("bg-fulll");
+  }
