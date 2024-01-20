@@ -183,6 +183,7 @@ section .title::after{
     color: var(--crimson);
     border-radius: 50%;
     cursor: pointer;
+    z-index: 100000;
   }
 
   .home .bg-full{
